@@ -1,0 +1,19 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Keil\EE319KwareSpring2015\Lab4_EE319K\Lab4.uvproj
+Project File Date:  03/01/2015
+
+<h2>Output:</h2>
+Build target 'Lab4'
+assembling main.s...
+linking...
+Program Size: Code=2232 RO-data=240 RW-data=456 ZI-data=1080  
+".\Lab4.axf" - 0 Error(s), 0 Warning(s).
+0 Error(s), 0 Warning(s).
+
+Target not created
+- 2 Error(s), 0 Warning(s).
+Target not created

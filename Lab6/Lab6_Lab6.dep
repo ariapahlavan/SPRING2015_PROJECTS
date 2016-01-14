@@ -1,0 +1,20 @@
+Dependencies for Project 'Lab6', Target 'Lab6': (DO NOT MODIFY !)
+F (.\startup.s)(0x5511BFB6)(--cpu Cortex-M4 -g --apcs=interwork -I "D:\EE 319K\ARM\RV31\INC"-I "D:\EE 319K\ARM\CMSIS\Include"-I "D:\EE 319K\ARM\Inc\Luminary"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\Sound.c)(0x55495C5D)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I "D:\EE 319K\ARM\RV31\INC"-I "D:\EE 319K\ARM\CMSIS\Include"-I "D:\EE 319K\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\sound.o --omf_browse .\sound.crf --depend .\sound.d)
+I (D:\EE 319K\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (dac.h)(0x5511BFB4)
+I (..\tm4c123gh6pm.h)(0x54FB53B9)
+F (.\piano.c)(0x554307D5)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I "D:\EE 319K\ARM\RV31\INC"-I "D:\EE 319K\ARM\CMSIS\Include"-I "D:\EE 319K\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\piano.o --omf_browse .\piano.crf --depend .\piano.d)
+I (D:\EE 319K\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (..\tm4c123gh6pm.h)(0x54FB53B9)
+F (.\dac.c)(0x55494E1A)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I "D:\EE 319K\ARM\RV31\INC"-I "D:\EE 319K\ARM\CMSIS\Include"-I "D:\EE 319K\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\dac.o --omf_browse .\dac.crf --depend .\dac.d)
+I (D:\EE 319K\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (..\tm4c123gh6pm.h)(0x54FB53B9)
+F (.\Lab6.c)(0x55495C5D)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I "D:\EE 319K\ARM\RV31\INC"-I "D:\EE 319K\ARM\CMSIS\Include"-I "D:\EE 319K\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\lab6.o --omf_browse .\lab6.crf --depend .\lab6.d)
+I (D:\EE 319K\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (..\tm4c123gh6pm.h)(0x54FB53B9)
+I (Sound.h)(0x5511BFB5)
+I (Piano.h)(0x5511BFB5)
+I (TExaS.h)(0x5511BFB7)
+I (dac.h)(0x5511BFB4)
+F (.\texas.o)(0x5511BFB6)()

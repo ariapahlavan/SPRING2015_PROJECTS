@@ -1,0 +1,17 @@
+--cpu Cortex-M4
+".\startup.o"
+".\random.o"
+".\texas.o"
+".\dac.o"
+".\adc.o"
+".\timer0.o"
+".\timer1.o"
+".\sound.o"
+".\lcd.o"
+".\print.o"
+".\spaceinvaders.o"
+".\st7735.o"
+C:\Keil\ARM\RV31\LIB\RTX_CM3.LIB
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\SpaceInvaders.map" -o .\SpaceInvaders.axf

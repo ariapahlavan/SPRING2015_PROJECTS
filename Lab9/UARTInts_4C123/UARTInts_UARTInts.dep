@@ -1,0 +1,16 @@
+Dependencies for Project 'UARTInts', Target 'UARTInts': (DO NOT MODIFY !)
+F (.\startup.s)(0x553313F8)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I "D:\EE 319K\ARM\RV31\INC"-I "D:\EE 319K\ARM\CMSIS\Include"-I "D:\EE 319K\ARM\Inc\Luminary"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\PLL.c)(0x553491D6)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I "D:\EE 319K\ARM\RV31\INC"-I "D:\EE 319K\ARM\CMSIS\Include"-I "D:\EE 319K\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (D:\EE 319K\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x5533FD47)
+I (PLL.h)(0x553313F8)
+F (.\UARTIntsTestMain.c)(0x553313FA)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I "D:\EE 319K\ARM\RV31\INC"-I "D:\EE 319K\ARM\CMSIS\Include"-I "D:\EE 319K\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\uartintstestmain.o --omf_browse .\uartintstestmain.crf --depend .\uartintstestmain.d)
+I (D:\EE 319K\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (PLL.h)(0x553313F8)
+I (UART.h)(0x553491FD)
+I (tm4c123gh6pm.h)(0x5533FD47)
+F (.\UART.c)(0x553491A4)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I "D:\EE 319K\ARM\RV31\INC"-I "D:\EE 319K\ARM\CMSIS\Include"-I "D:\EE 319K\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (D:\EE 319K\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x5533FD47)
+I (FIFO.h)(0x553313F8)
+I (UART.h)(0x553491FD)

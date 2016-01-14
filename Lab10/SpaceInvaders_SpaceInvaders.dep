@@ -1,0 +1,69 @@
+Dependencies for Project 'SpaceInvaders', Target 'SpaceInvaders': (DO NOT MODIFY !)
+F (.\startup.s)(0x553C02DA)(--cpu Cortex-M4 -g --apcs=interwork -I "D:\EE 319K\ARM\RV31\INC"-I "D:\EE 319K\ARM\CMSIS\Include"-I "D:\EE 319K\ARM\Inc\Luminary"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\random.s)(0x555E9778)(--cpu Cortex-M4 -g --apcs=interwork -I "D:\EE 319K\ARM\RV31\INC"-I "D:\EE 319K\ARM\CMSIS\Include"-I "D:\EE 319K\ARM\Inc\Luminary"--list .\random.lst --xref -o .\random.o --depend .\random.d)
+F (.\DAC.c)(0x5563F507)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I "D:\EE 319K\ARM\RV31\INC"-I "D:\EE 319K\ARM\CMSIS\Include"-I "D:\EE 319K\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\dac.o --omf_browse .\dac.crf --depend .\dac.d)
+I (D:\EE 319K\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x54FB53B9)
+F (.\ADC.c)(0x55485D1F)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I "D:\EE 319K\ARM\RV31\INC"-I "D:\EE 319K\ARM\CMSIS\Include"-I "D:\EE 319K\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
+I (D:\EE 319K\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x54FB53B9)
+F (.\Timer0.c)(0x554D5BF7)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I "D:\EE 319K\ARM\RV31\INC"-I "D:\EE 319K\ARM\CMSIS\Include"-I "D:\EE 319K\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\timer0.o --omf_browse .\timer0.crf --depend .\timer0.d)
+I (D:\EE 319K\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x54FB53B9)
+F (.\Timer1.c)(0x5564FA60)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I "D:\EE 319K\ARM\RV31\INC"-I "D:\EE 319K\ARM\CMSIS\Include"-I "D:\EE 319K\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\timer1.o --omf_browse .\timer1.crf --depend .\timer1.d)
+I (D:\EE 319K\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x54FB53B9)
+I (ADC.h)(0x5542FE5D)
+F (.\Sound.c)(0x5567CB17)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I "D:\EE 319K\ARM\RV31\INC"-I "D:\EE 319K\ARM\CMSIS\Include"-I "D:\EE 319K\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\sound.o --omf_browse .\sound.crf --depend .\sound.d)
+I (D:\EE 319K\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (Sound.h)(0x55637BE4)
+I (tm4c123gh6pm.h)(0x54FB53B9)
+I (SoundFiles.h)(0x55625348)
+I (DAC.h)(0x5542DEB4)
+I (SoundFiles.c)(0x5564C19F)
+I (Timer0.h)(0x554737AB)
+I (Timer1.h)(0x5549C182)
+I (Timer2.h)(0x55489A83)
+F (.\Print.s)(0x553DAB96)(--cpu Cortex-M4 -g --apcs=interwork -I "D:\EE 319K\ARM\RV31\INC"-I "D:\EE 319K\ARM\CMSIS\Include"-I "D:\EE 319K\ARM\Inc\Luminary"--list .\print.lst --xref -o .\print.o --depend .\print.d)
+F (.\ST7735.c)(0x554A2275)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I "D:\EE 319K\ARM\RV31\INC"-I "D:\EE 319K\ARM\CMSIS\Include"-I "D:\EE 319K\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\st7735.o --omf_browse .\st7735.crf --depend .\st7735.d)
+I (D:\EE 319K\ARM\ARMCC\include\stdio.h)(0x51C88A34)
+I (D:\EE 319K\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (ST7735.h)(0x55445389)
+I (tm4c123gh6pm.h)(0x54FB53B9)
+F (.\Tetris.c)(0x5567CB17)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I "D:\EE 319K\ARM\RV31\INC"-I "D:\EE 319K\ARM\CMSIS\Include"-I "D:\EE 319K\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\tetris.o --omf_browse .\tetris.crf --depend .\tetris.d)
+I (D:\EE 319K\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x54FB53B9)
+I (ST7735.h)(0x55445389)
+I (Sound.h)(0x55637BE4)
+I (Random.h)(0x553C02DA)
+I (TExaS.h)(0x5544222D)
+I (ADC.h)(0x5542FE5D)
+I (ExtraFunctions.h)(0x554C6F8A)
+I (D:\EE 319K\ARM\ARMCC\include\stdbool.h)(0x51C88A34)
+I (DAC.h)(0x5542DEB4)
+I (PLL.h)(0x5511ADC4)
+I (Images.h)(0x554C62E8)
+I (Timer0.h)(0x554737AB)
+I (Timer1.h)(0x5549C182)
+I (Timer2.h)(0x55489A83)
+F (.\PLL.c)(0x5511ADC4)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I "D:\EE 319K\ARM\RV31\INC"-I "D:\EE 319K\ARM\CMSIS\Include"-I "D:\EE 319K\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (PLL.h)(0x5511ADC4)
+I (D:\EE 319K\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (tm4c123gh6pm.h)(0x54FB53B9)
+F (.\PLL.h)(0x5511ADC4)()
+F (.\Images.h)(0x554C62E8)()
+F (.\IO.s)(0x555EB0E7)(--cpu Cortex-M4 -g --apcs=interwork -I "D:\EE 319K\ARM\RV31\INC"-I "D:\EE 319K\ARM\CMSIS\Include"-I "D:\EE 319K\ARM\Inc\Luminary"--list .\io.lst --xref -o .\io.o --depend .\io.d)
+F (.\LCD.s)(0x551A16A0)(--cpu Cortex-M4 -g --apcs=interwork -I "D:\EE 319K\ARM\RV31\INC"-I "D:\EE 319K\ARM\CMSIS\Include"-I "D:\EE 319K\ARM\Inc\Luminary"--list .\lcd.lst --xref -o .\lcd.o --depend .\lcd.d)
+F (.\Timer2.c)(0x5549E9CF)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I "D:\EE 319K\ARM\RV31\INC"-I "D:\EE 319K\ARM\CMSIS\Include"-I "D:\EE 319K\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\timer2.o --omf_browse .\timer2.crf --depend .\timer2.d)
+I (D:\EE 319K\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (Timer2.h)(0x55489A83)
+I (tm4c123gh6pm.h)(0x54FB53B9)
+I (ADC.h)(0x5542FE5D)
+F (.\Timer1.h)(0x5549C182)()
+F (.\DAC.h)(0x5542DEB4)()
+F (.\ExtraFunctions.c)(0x554D71B1)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I "D:\EE 319K\ARM\RV31\INC"-I "D:\EE 319K\ARM\CMSIS\Include"-I "D:\EE 319K\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\extrafunctions.o --omf_browse .\extrafunctions.crf --depend .\extrafunctions.d)
+I (D:\EE 319K\ARM\ARMCC\include\stdbool.h)(0x51C88A34)
+I (ExtraFunctions.h)(0x554C6F8A)
+I (tm4c123gh6pm.h)(0x54FB53B9)
+I (D:\EE 319K\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+F (.\ExtraFunctions.h)(0x554C6F8A)()

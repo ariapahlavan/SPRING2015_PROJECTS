@@ -1,0 +1,4 @@
+Dependencies for Project 'Lab4', Target 'Lab4': (DO NOT MODIFY !)
+F (.\Startup.s)(0x54F53FA8)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I "D:\EE 319K\ARM\RV31\INC"-I "D:\EE 319K\ARM\CMSIS\Include"-I "D:\EE 319K\ARM\Inc\Luminary"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\main.s)(0x54F542A9)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I "D:\EE 319K\ARM\RV31\INC"-I "D:\EE 319K\ARM\CMSIS\Include"-I "D:\EE 319K\ARM\Inc\Luminary"--list .\main.lst --xref -o .\main.o --depend .\main.d)
+F (.\texas.o)(0x54F542A9)()

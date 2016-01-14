@@ -1,0 +1,7 @@
+Dependencies for Project 'Lab5', Target 'Lab5': (DO NOT MODIFY !)
+F (.\startup.s)(0x54F53FA9)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I "D:\EE 319K\ARM\RV31\INC"-I "D:\EE 319K\ARM\CMSIS\Include"-I "D:\EE 319K\ARM\Inc\Luminary"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\TrafficLight.c)(0x54FD1753)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\..-I "D:\EE 319K\ARM\RV31\INC"-I "D:\EE 319K\ARM\CMSIS\Include"-I "D:\EE 319K\ARM\Inc\Luminary"-Drvmdk -DPART_LM4F120H5QR-o .\trafficlight.o --omf_browse .\trafficlight.crf --depend .\trafficlight.d)
+I (TExaS.h)(0x54F53FA9)
+I (..\tm4c123gh6pm.h)(0x54FB45A9)
+I (D:\EE 319K\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+F (.\texas.o)(0x54FB45A9)()
