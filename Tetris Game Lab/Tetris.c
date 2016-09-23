@@ -11,13 +11,13 @@
 
 /*
  Copyright 2015 by Aria Pahlavan, apahlavan1@utexas.edu 
-		   Khalid Qarryzada
+		   Khalid Qarryzada, khalid.qarryzada@utexas.edu
     You may use, edit, run or distribute this file
     as long as the above copyright notice remains
  THIS SOFTWARE IS PROVIDED "AS IS".  NO WARRANTIES, WHETHER EXPRESS, IMPLIED
  OR STATUTORY, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF
  MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE APPLY TO THIS SOFTWARE.
- ARIAPAHLAVAN OR KHALID QARRYZADA SHALL NOT, IN ANY CIRCUMSTANCES, BE LIABLE FOR SPECIAL, INCIDENTAL,
+ ARIA PAHLAVAN OR KHALID QARRYZADA SHALL NOT, IN ANY CIRCUMSTANCES, BE LIABLE FOR SPECIAL, INCIDENTAL,
  OR CONSEQUENTIAL DAMAGES, FOR ANY REASON WHATSOEVER.
  */
 // ******* Possible Hardware I/O connections*******************
@@ -734,7 +734,7 @@ DisableInterrupts();
 //
 //
 void Draw (char shapeType, char orientation, const unsigned short *image, char next, char boxflag){//shapeType- is it an O? a T? etc. 
-	int temp;								//orientation- how much to rotate it by? 0 = none, 1 = 90°, etc. 
+	int temp;								//orientation- how much to rotate it by? 0 = none, 1 = 90Â°, etc. 
 										//image- whether to print the reg. block or the clearing block
 											//right now the function only draws O-tetromino
 	if (shapeType == 'C'){
@@ -994,7 +994,7 @@ void Draw (char shapeType, char orientation, const unsigned short *image, char n
 //
 //
 void Draw_No_Int (char shapeType, char orientation, const unsigned short *image, char next, char boxflag){//shapeType- is it an O? a T? etc.
-	//int temp;								//orientation- how much to rotate it by? 0 = none, 1 = 90°, etc. 
+	//int temp;								//orientation- how much to rotate it by? 0 = none, 1 = 90Â°, etc. 
 	DisableInterrupts();					//image- whether to print the reg. block or the clearing block
 											//right now the function only draws O-tetromino
 	
