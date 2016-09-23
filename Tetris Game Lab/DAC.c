@@ -1,5 +1,5 @@
 // dac.c
-// Aria Phalavan, Khalid Qarrizada; 04/26/2015
+// Aria Phalavan, Khalid Qarryzada; 04/26/2015
 // This software configures DAC output
 // Runs on LM4F120 or TM4C123
 // Program written by: Aria Pahlavan and Khalid Qarryzada
